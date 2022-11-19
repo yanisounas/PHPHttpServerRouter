@@ -1,0 +1,11 @@
+{
+    "name": "oy/php-server_router",
+    "autoload": {
+        "psr-4": {
+            "PHPHttpServerRouter\\": "src/"
+        }
+    },
+    "require": {
+      "ext-fileinfo": "*"
+    }
+}
