@@ -3,6 +3,8 @@ chdir(__DIR__. "/public/");
 
 require "../vendor/autoload.php";
 
+if (PHP_VERSION < "8.0.0")
+    exit(throw new \Exception("PHP version mus be at least 8.0.0 Your version : ". PHP_VERSION));
 
 PHPHttpServerRouter\Router\RouterInitializer::getInstance(autoStart: true);
 
