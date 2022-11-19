@@ -1,8 +1,8 @@
 {
-    "name": "oy/php-server_router",
+    "name": "oy/php-http-server-router",
     "autoload": {
         "psr-4": {
-            "PHPHttpServerRouter\\": "src/"
+            "PHPHttpServerRouter\\": "./"
         }
     },
     "require": {

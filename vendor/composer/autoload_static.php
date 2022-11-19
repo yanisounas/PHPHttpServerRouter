@@ -16,7 +16,7 @@ class ComposerStaticInit12acb672953fd1cbe66522b2571da79b
     public static $prefixDirsPsr4 = array (
         'PHPHttpServerRouter\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/',
         ),
     );
 

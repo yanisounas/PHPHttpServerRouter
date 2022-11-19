@@ -88,7 +88,7 @@ class RouterInitializer
     public function listen(): void
     {
         ($this->router ??= new Router())
-            ->getRouteFromStringControllers(... ($this->controllers ??= json_decode( file_get_contents( dirname(__DIR__) . "/Controller/map.json") ) ) )
+            ->getRouteFromStringControllers(... ($this->controllers ??= json_decode( file_get_contents(dirname(__DIR__) . "/Controller/map.json") ) ) )
             ->listen();
     }
 }
